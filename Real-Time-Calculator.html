@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Calculator</title>
+    <link rel="stylesheet" href="./Real-Time-Calculator.css">
+</head>
+<body>
+    <div>
+        <label id="num1" class="label" for="">Enter First Number </label><br>
+        <input type="number" placeholder="Number" id="number1" class="input"><br><br>
+
+        <label id="num2" class="label" for="">Enter Second Number </label><br>
+        <input type="number" placeholder="Number" id="number2" class="input"><br><br>
+
+        <button class="button" id="addbutton" onclick="Addition()">ADD</button>
+        <button class="button" id="subbutton" onclick="Subraction()">SUB</button>
+        <button class="button" id="mulbutton" onclick="Multiplication()">MUL</button>
+        <button class="button" id="divbutton" onclick="Division()">DIV</button>
+<br><br>
+        <label id="final" for="">Final Result:</label>
+        <h2 id="output"></h2>
+        </div>
+
+    <script src="./Real-Time-Calculator.js">    </script>
+</body>
+</html>
